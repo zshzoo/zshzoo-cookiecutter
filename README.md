@@ -25,7 +25,8 @@ cookiecutter gh:zshzoo/zshzoo-cookiecutter
 ## Example
 
 ```zsh
-cd ~/Projects/zshzoo
+mkdir -p ~/Projects/zshzoo && cd ~/Projects/zshzoo
+
 cookiecutter gh:zshzoo/zshzoo-cookiecutter
 # project_name [my-project]:
 # your_name [zshzoo]:
