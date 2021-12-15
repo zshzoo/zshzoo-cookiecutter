@@ -1,6 +1,6 @@
 # zshzoo-cookiecutter
 
-A :cookie: [cookiecutter] template for :zebra: [zshzoo] projects
+> A :cookie: [cookiecutter] template for :zebra: [zshzoo] projects
 
 ## Why use this template?
 
