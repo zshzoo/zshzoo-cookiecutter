@@ -77,7 +77,7 @@ Then, add the plugin to your Prezto plugins list in .zpreztorc
 ```zsh
 zstyle ':prezto:load' pmodule \
   ... \
-  {{cookiecutter.project_name}}
+  {{cookiecutter.project_name}} \
   ...
 ```
 
