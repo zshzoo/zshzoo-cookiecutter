@@ -1,5 +1,10 @@
 # {{cookiecutter.project_name}}
 
+[![License](https://img.shields.io/badge/license-MIT-007EC7)](/LICENSE)
+[![built for](https://img.shields.io/badge/build%20for-%20%F0%9F%A6%93%20zshzoo-black)][zshzoo]
+[![works with prezto](https://img.shields.io/badge/works%20with-%E2%9D%AF%E2%9D%AF%E2%9D%AF%20prezto-red)](#install-for-prezto])
+[![works with ohmyzsh](https://img.shields.io/badge/works%20with-%20%E2%9E%9C%20oh--my--zsh-C2D33F)](#install-for-oh-my-zsh)
+
 > This plugin is amazing...
 
 ## Description
@@ -76,8 +81,9 @@ zstyle ':prezto:load' pmodule \
   ...
 ```
 
-[omz]: https://github.com/ohmyzsh/ohmyzsh
+[ohmyzsh]: https://github.com/ohmyzsh/ohmyzsh
 [prezto]: https://github.com/sorin-ionescu/prezto
+[zshzoo]: https://github.com/zshzoo/zshzoo
 [pz]: https://github.com/mattmc3/pz
 [zcomet]: https://github.com/agkozak/zcomet
 [zgenom]: https://github.com/jandamm/zgenom
