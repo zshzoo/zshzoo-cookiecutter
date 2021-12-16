@@ -42,7 +42,7 @@ source ${ZDOTDIR:-~}/.zplugins/{{cookiecutter.project_name}}/{{cookiecutter.proj
 
 ### Install for Oh-My-Zsh
 
-To install with [Oh-My-Zsh][omz], first clone the repo from an interactive Zsh session:
+To install with [Oh-My-Zsh][ohmyzsh], first clone the repo from an interactive Zsh session:
 
 ```zsh
 # make sure your $ZSH_CUSTOM is set
