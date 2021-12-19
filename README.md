@@ -22,6 +22,19 @@ pip install cookiecutter
 cookiecutter gh:zshzoo/zshzoo-cookiecutter
 ```
 
+After you have run cookiecutter to create your new project, you can create an **empty**
+repo on GitHub, and then commit to that remote repo using the following method:
+
+```zsh
+cd my-project
+git init
+git branch -m main
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/zshzoo/${PWD:t}.git
+git push --set-upstream origin main
+```
+
 ## Example
 
 ```zsh
