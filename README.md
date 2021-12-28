@@ -28,11 +28,11 @@ repo on GitHub, and then commit to that remote repo using the following method:
 ```zsh
 cd my-project
 git init
-git branch -m main
+git branch -M main
 git add .
 git commit -m "Initial commit"
 git remote add origin https://github.com/zshzoo/${PWD:t}.git
-git push --set-upstream origin main
+git push -u origin main
 ```
 
 ## Example
