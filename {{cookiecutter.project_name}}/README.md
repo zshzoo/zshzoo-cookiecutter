@@ -21,7 +21,7 @@ Customize this plugin by doing this...
 
 To install using a Zsh plugin manager, add the following to your .zshrc
 
-- [antidote]: `antidote bundle {{cookiecutter.gitrepo_owner}}/{{cookiecutter.project_name}}`
+- [antidote]: `antidote install {{cookiecutter.gitrepo_owner}}/{{cookiecutter.project_name}}`
 - [zcomet]: `zcomet load {{cookiecutter.gitrepo_owner}}/{{cookiecutter.project_name}}`
 - [zgenom]: `zgenom load {{cookiecutter.gitrepo_owner}}/{{cookiecutter.project_name}}`
 - [znap]: `znap source {{cookiecutter.gitrepo_owner}}/{{cookiecutter.project_name}}`
@@ -67,9 +67,7 @@ To install with [Prezto][prezto], first clone the repo from an interactive Zsh s
 # make sure your $ZPREZTODIR is set
 ZPREZTODIR=${ZPREZTODIR:-~/.zprezto}
 # clone the repo to a prezto contrib dir
-git clone https://{{cookiecutter.git_domain}}/{{cookiecutter.gitrepo_owner}}/{{cookiecutter.project_name}} $ZPREZTODIR/contrib/{{cookiecutter.project_name}}/external
-# set up the contrib
-echo "source \${0:A:h}/external/{{cookiecutter.project_name}}.plugin.zsh" > $ZPREZTODIR/contrib/{{cookiecutter.project_name}}/init.zsh
+git clone https://{{cookiecutter.git_domain}}/{{cookiecutter.gitrepo_owner}}/{{cookiecutter.project_name}} $ZPREZTODIR/contrib/{{cookiecutter.project_name}}
 ```
 
 Then, add the plugin to your Prezto plugins list in .zpreztorc
