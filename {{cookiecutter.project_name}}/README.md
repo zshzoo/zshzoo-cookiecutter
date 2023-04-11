@@ -40,7 +40,7 @@ Then, in your .zshrc, add the following line:
 source ${ZDOTDIR:-~}/.zplugins/{{cookiecutter.project_name}}/{{cookiecutter.project_name}}.zsh
 ```
 
-### Install for Oh-My-Zsh
+### Oh-My-Zsh Install
 
 To install with [Oh-My-Zsh][ohmyzsh], first clone the repo from an interactive Zsh session:
 
@@ -59,7 +59,7 @@ Then, add the plugin to your Oh-My-Zsh plugins list in your .zshrc
 plugins=(... {{cookiecutter.project_name}})
 ```
 
-### Install for Prezto
+### Prezto Install
 
 To install with [Prezto][prezto], first clone the repo from an interactive Zsh session:
 
